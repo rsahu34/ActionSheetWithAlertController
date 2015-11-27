@@ -32,6 +32,8 @@
                                                          style:UIAlertActionStyleDefault
                                                        handler:^(UIAlertAction *action) {
                                                            NSString *title = action.title;
+                                                           
+                                                           // add the action here
                                                            NSLog(@"%@",title);
                                                            //you can check here on what button is pressed using title
                                                        }];
